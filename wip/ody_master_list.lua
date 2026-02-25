@@ -14,10 +14,12 @@
                 --partly consulted https://github.com/MarianArlt/sheolhelper/tree/main and the mob list thorny gave me, and bgwiki
         --TODO LIST:
             --UNM Resists
+            --probably get magic resistance into mobdb / make an icon for resists death
             --Cruel Joke (need intel for A, and if B and C really differs)
                 --Notes={"Joke - O"}, for cruel joke / mortal ray
             --check for absorbs due to Puks existing
             --beastmen jobs
+                --figure out what wiki meant by beastman leader too
             --run more odyssey to confirm this actully works on every mob
                 --at least its commented out mobs that shouldnt spawn
 
@@ -146,7 +148,7 @@
         ['Nostos Wasp']          = { Name='Nostos Wasp',           Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=false, Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.250, H2H=1.000, Impact=1.000, Fire=1.300, Ice=1.500, Wind=0.700, Earth=1.300, Lightning=1.300, Water=1.300, Light=1.300, Dark=1.300} },
 
 --"Agon"
-    --wtf is a beastman leader btw
+
         ['Agon Halo']           = { Name='Agon Halo',         Notorious=false, Aggro=false, Link=false,  TrueSight=true, Job=0, MinLevel=119, MaxLevel=131, Immunities=0, Respawn=0, Sight=true, Sound=true, Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.000, Ice=1.000, Wind=1.000, Earth=1.000, Lightning=1.000, Water=1.000, Light=1.000, Dark=1.000} },
 --Sheol A: lvl 119~131?, no special resists
     -- Orc

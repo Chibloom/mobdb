@@ -129,7 +129,7 @@ return {
         ['Nostos Wasp']          = { Name='Nostos Wasp',           Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=124, MaxLevel=134, Immunities=0, Respawn=0, Sight=true, Sound=false, Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.250, H2H=1.000, Impact=1.000, Fire=1.300, Ice=1.500, Wind=0.700, Earth=1.300, Lightning=1.300, Water=1.300, Light=1.300, Dark=1.300}, Notes={"Magic -25%"} },
 
 --"Agon"
-    --wtf is a beastman leader btw
+
         ['Agon Halo']           = { Name='Agon Halo',         Notorious=false, Aggro=false, Link=false,  TrueSight=true, Job=0, MinLevel=124, MaxLevel=131, Immunities=0, Respawn=0, Sight=true, Sound=true, Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.000, Ice=1.000, Wind=1.000, Earth=1.000, Lightning=1.000, Water=1.000, Light=1.000, Dark=1.000} },
 
     --Sheol B: lvl 124~134?, resists, no sleep
