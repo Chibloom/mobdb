@@ -1,0 +1,99 @@
+Amorph
+    [] Nostos Black Pudding
+    [] Nostos Clot
+    [] Nostos Leech
+    [] Nostos Worm
+Aquan
+    [] Nostos Crab
+    [] Nostos Jagil
+Arcana
+    [] Nostos Cluster
+    [] Nostos Evil Weapon
+Beast
+    [] Nostos Karakul
+    [] Nostos Leopard
+    [] Nostos Manticore
+    [] Nostos Marid
+    [] Nostos Ram
+    [] Nostos Rarab
+    [] Nostos Tiger
+Bird
+    [] Nostos Apkallu
+    [] Nostos Bat
+    [] Nostos Bats
+    [] Nostos Bigbird
+    [] Nostos Colibri
+    [] Nostos Vulture
+    [] Nostos Ziz
+Demon
+    [] Nostos Imp
+    [] Nostos Soulflayer
+Dragon
+    [] Nostos Dahak
+    [] Nostos Puk
+    [] Nostos Wyvern
+Lizard
+    [] Nostos Bugard
+    [] Nostos Raptor
+Plantoid
+    [] Nostos Ameretat
+    [] Nostos Flytrap
+    [] Nostos Funguar
+    [] Nostos Goobbue
+    [] Nostos Korrigan
+    [] Nostos Sapling
+    [] Nostos Treant
+Undead
+    [] Nostos Bhoot
+    [] Nostos Draugar
+    [] Nostos Ghoul
+    [] Nostos Qutrub
+Vermin
+    [] Nostos Chigoe
+    [] Nostos Defoliator
+    [] Nostos Diremite
+    [] Nostos Gaganbo
+    [] Nostos Scorpion
+    [] Nostos Spinner
+    [] Nostos Wamoura
+    [] Nostos Wamouracampa
+    [] Nostos Wasp
+=
+Agons
+    mamool
+        [] Agon Cleric
+        [] Agon Heretic
+        [] Agon Initiate
+        [] Agon Instigator
+        [] Agon Marquess
+        [] Agon Phalanx
+        [] Agon Pilferer
+        [] Agon Praetor
+    troll
+        [] Agon Clearmind
+        [] Agon Defender
+        [] Agon Footsoldier
+        [] Agon Infidel
+        [] Agon Ritualist
+        [] Agon Sharpshooter
+        [] Agon Shieldsaint
+        [] Agon Viscount
+    lamia
+        [] Agon Adjudicator
+        [] Agon Dignitary
+        [] Agon Marksman
+        [] Agon Monarch
+        [] Agon Rabblerouser
+        [] Agon Scallywag
+        [] Agon Vizier
+        [] Agon Yojimbo
+NM
+=
+[] Asena
+[] Bygul
+[] Chaos Steward
+[] Dabbat al-Ard
+[] Kurmajara
+[] Lotanu
+[] Wayra Tata
+

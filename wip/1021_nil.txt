@@ -1,0 +1,175 @@
+Amorph
+    [] Nostos Black Pudding
+    [] Nostos Clot
+    [] Nostos Hecteyes
+    [] Nostos Leech
+    [] Nostos Worm
+Aquan
+    [] Nostos Crab
+    [] Nostos Jagil
+    [] Nostos Kraken
+Arcana
+    [] Nostos Bomb
+    [] Nostos Cluster
+    [] Nostos Evil Weapon
+    [] Nostos Magic Pot
+Beast
+    [] Nostos Buffalo
+    [] Nostos Coeurl
+    [] Nostos Dhalmel
+    [] Nostos Karakul
+    [] Nostos Marid
+    [] Nostos Manticore
+    [] Nostos Opo-opo
+    [] Nostos Tiger
+Bird
+    [] Nostos Apkallu
+    [] Nostos Bat
+    [] Nostos Bats
+    [] Nostos Cockatrice
+    [] Nostos Roc
+    [] Nostos Vulture
+Demon
+    [] Nostos Ahriman
+    [] Nostos Taurus
+Dragon
+    [] Nostos Drake
+    [] Nostos Puk
+Lizard
+    [] Nostos Bugard
+    [] Nostos Lizard
+    [] Nostos Raptor
+Plantoid
+    [] Nostos Ameretat
+    [] Nostos Goobbue
+    [] Nostos Sabotender
+    [] Nostos Sapling
+    [] Nostos Treant
+Undead
+    [] Nostos Corse
+    [] Nostos Doom Toad
+    [] Nostos Ghost
+    [] Nostos Ghoul
+    [] Nostos Hound
+    [] Nostos Skeleton
+Vermin
+    [] Nostos Beetle
+    [] Nostos Damselfly
+    [] Nostos Eruca
+    [] Nostos Scorpion
+    [] Nostos Spinner
+    [] Nostos Wamoura
+    [] Nostos Wasp
+=
+Agons
+    Antican
+        [] Agon Cleaver
+        [] Agon Culler
+        [] Agon Errant
+        [] Agon Magister
+        [] Agon Man-at-Arms
+        [] Agon Soldier
+        [] Agon Swiftcaster
+        [] Agon Warden
+    sahagin
+        [] Agon Chemister
+        [] Agon Dragonmaster
+        [] Agon Healer
+        [] Agon Lancer
+        [] Agon Mendicant
+        [] Agon Muse
+        [] Agon Stoicist
+        [] Agon Tamer
+    tonberry
+        [] Agon Agent
+        [] Agon Assassin
+        [] Agon Channeler
+        [] Agon Hexer
+        [] Agon Kunoichi
+        [] Agon Pickpocket
+        [] Agon Rogue
+        [] Agon Spy
+NM
+[] Akidu
+[] Akidu\'s Damselfly
+
+[] Allergorhai
+[] Allergorhai\'s Worm
+
+[] Apollinaris VII-II
+[] Apollinaris\'s Antican
+
+[] Azdaha
+[] Azdaha\'s Wyvern
+
+[] Bendigeidfran
+[] Bendigeidfran\'s Golem
+
+[] Bes
+[] Bes\'s Hecteyes
+
+[] Chelamma
+[] Chelamma\'s Scorpion
+
+[] Chnubis
+[] Chnubis\'s Manticore
+
+[] Count Malefis
+[] Malefis\'s Vampire
+
+[] Fleet-footed Lokberry
+[] Lokberry\'s Tonberry
+[] Lokberry\'s Avatar
+
+[] Fornax
+[] Fornax\'s Cluster
+
+[] Gandji
+[] Gandji\'s Roc
+
+[] Gravehaunter
+[] Gravehaunter\'s Corse
+
+[] Ishum
+[] Ishum\'s Bomb
+
+[] Kuk
+[] Kuk\'s Shadow Dragon
+
+[] Langmeidong
+[] Langmeidong\'s Roc
+
+
+
+[] Man-kheper-re
+[] Kheper\'s Beetle
+
+[] Maverick Maude
+[] Maude\'s Ameretat
+
+[] Nerites
+[] Nerites\'s Crab
+
+[] Ptesan Wi
+[] Ptesan Wi\'s Buffalo
+
+[] Shara
+[] Shara\'s Evil Weapon
+
+[] Simir
+[] Simir\'s Colibri
+
+[] Spyrysyon
+[] Spyrysyon\'s Shadow
+
+[] Tabitjet
+[] Tabitjet\'s Scorpion
+
+[] Taniwha
+[] Taniwha\'s Kraken
+
+[] Tripix
+[] Tripix\'s Goblin
+
+[] Zacatzontli
+[] Zacatzontli\'s Roc

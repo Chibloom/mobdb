@@ -1,0 +1,104 @@
+Amorph
+    [] Nostos Leech
+    [] Nostos Slime
+    [] Nostos Worm
+    Aquan
+    [] Nostos Crab
+    [] Nostos Fish
+    [] Nostos Kraken
+    [] Nostos Uragnite
+Arcana
+    [] Nostos Bomb
+    [] Nostos Evil Weapon
+    [] Nostos Giant
+Beast
+    [] Nostos Buffalo
+    [] Nostos Coeurl
+    [] Nostos Dhalmel
+    [] Nostos Manticore
+    [] Nostos Opo-opo
+    [] Nostos Rarab
+    [] Nostos Sheep
+    [] Nostos Tiger
+Bird
+    [] Nostos Bat
+    [] Nostos Bats
+    [] Nostos Cockatrice
+    [] Nostos Roc
+    [] Nostos Vulture
+Demon
+    -- None
+Dragon
+    [] Nostos Drake
+Lizard
+    [] Nostos Eft
+    [] Nostos Bugard
+    [] Nostos Lizard
+Plantoid
+    [] Nostos Flytrap
+    [] Nostos Funguar
+    [] Nostos Goobbue
+    [] Nostos Mandragora
+    [] Nostos Morbol
+    [] Nostos Sabotender
+    [] Nostos Sapling
+    [] Nostos Treant
+Undead
+    [] Nostos Doom Toad
+    [] Nostos Ghost
+    [] Nostos Ghoul
+    [] Nostos Hound
+    [] Nostos Skeleton
+Vermin
+    [] Nostos Beetle
+    [] Nostos Crawler
+    [] Nostos Damselfly
+    [] Nostos Scorpion
+    [] Nostos Spider
+    [] Nostos Wasp
+=
+Agons
+    orc
+        [] Agon Archer
+        [] Agon Black Belt
+        [] Agon Crusader
+        [] Agon Fighter
+        [] Agon Pugilist
+        [] Agon Renegade
+        [] Agon Thaumaturge
+        [] Agon Villifier
+    yagudo
+        [] Agon Archon
+        [] Agon Bruiser
+        [] Agon Chirurgeon
+        [] Agon Lyricist
+        [] Agon Magus
+        [] Agon Samurai
+        [] Agon Shinobi
+        [] Agon Spiritualist
+    quadav
+        [] Agon Champion
+        [] Agon Cleric
+        [] Agon Enchanter
+        [] Agon Evoker
+        [] Agon Marauder
+        [] Agon Pillager
+        [] Agon Ravager
+        [] Agon Squire
+NM
+[] Aegypius
+[] Ailuros
+[] Brachys
+[] Cynara
+[] Damysus
+[] Dione
+[] Eurytus
+[] Gloios
+[] Harpe
+[] Kusarikku
+[] Leucippe
+[] Megaera
+[] Physis
+[] Ptelea
+[] Salmandra
+[] Tipuli
