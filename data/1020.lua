@@ -5,22 +5,7 @@
     --for odyssey, mainzone id 279/298, subzone id 1019+1020/1021+1022/1023+1024
         --this is important for sheol specific resists
             --which is placed ONLY in the subzone files
-    --WIP BY Chihiro. A lot of this is manual work.
 
-        --check if 0 will show as -100%. this should be for absorbs
-            --ideally if negative numbers work then that would be better, like -200%
-        -- THINGS ARE PRONE TO BE WRONG. I do not run odyssey enough.
-            --this would be notable to magic elements, but surely you have enough m. accuracy idk
-        -- I will be using bg wiki info, from the Family's page.
-            --orginal sheolhelper resists went in 0.125 for some reason. I'm just looking at bg wiki instead
-            --mobdb entry is inconsistent with wiki due to using older lsb data
-                --apperently lsb switched to bg wiki values or so at some point so 130% is correct
-        --magic resisist will be written as notes. partly due to different than elemental resists I believe.
-        --Notes={"Joke - O"}, for cruel joke / mortal ray
-            --not sure if A is vuluable to doom. only using bgwiki data for B/C
-                --so I'm leaving A blank bc I don't have a blu
-            --Does BLM Death work imagine using that shit tho?
-        --partly consulted https://github.com/MarianArlt/sheolhelper/tree/main and the mob list thorny gave me, and bgwiki
 return {
     Names = {
 --"Nostos"
