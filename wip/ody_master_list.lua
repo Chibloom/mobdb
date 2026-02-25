@@ -8,21 +8,36 @@
             --this would be notable to magic elements, but surely you have enough m. accuracy idk
             -- I will be using bg wiki info, from the Family's page.
                 --orginal sheolhelper resists went in 0.125 for some reason. I'm just looking at bg wiki instead
+                    --sheolhelper also gave imps pierce weakness for some reason. huh? why aint this on wiki
+                        --did the same for taurus's too
                 --mobdb entry is inconsistent with wiki due to using older lsb data
                     --apperently lsb switched to bg wiki values or so at some point so 130% is correct
                 --magic resistance will be written as notes. partly due to different than elemental resists I believe.
                 --partly consulted https://github.com/MarianArlt/sheolhelper/tree/main and the mob list thorny gave me, and bgwiki
         --TODO LIST:
-            --UNM Resists
+            --UNM Resists, aggro rules (but they prob just truesight anyways)
+                --speaing of, can deoderize work on anything here actully?
             --probably get magic resistance into mobdb / make an icon for resists death
+                --breath too but i mean who even applies that, just drg? maybe blu?
+            --if actully doing geol, gonna need subzone id. but I have 0 fight experience.
             --Cruel Joke (need intel for A, and if B and C really differs)
                 --Notes={"Joke - O"}, for cruel joke / mortal ray
-            --check for absorbs due to Puks existing
+            --check for absorbs due to Puks existing. It currently just shows -100%
             --beastmen jobs
                 --figure out what wiki meant by beastman leader too
             --run more odyssey to confirm this actully works on every mob
                 --at least its commented out mobs that shouldnt spawn
+                --figure out what a gaganbo is, apperently spawns in C
+                    --sheolhelper also said its pierce weak but idk amigo
+                --confirm mob family
+                    --is fish just pugil? should spawn in A
+                    --is bigbird greaterbird? sheol C
+                --some mobs have different resist based on form like color of drakes. idk man
+                    --assuming a leopard is just a black tiger. sheol C
+                    --assumed taurus is gray, shoel B
+                    --assumed drake and wyvern is brown. drake A B, wyvern C
 
+return {
     Names = {
 --HTBF (yeah idk)
         ['Alexander'] = { Name='Alexander', Notorious=false, Aggro=true, Link=false, TrueSight=true, Job=0, MinLevel=119, MaxLevel=119, Immunities=0, Respawn=0, Sight=true, Sound=false, Blood=false, Magic=true, JA=false, Scent=false, Drops={}, Spells={22,25,31,35,40}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.000, Ice=1.000, Wind=1.000, Earth=1.000, Lightning=1.000, Water=1.000, Light=1.000, Dark=1.000} },
@@ -39,7 +54,6 @@
         ['Nostos Worm']          = { Name='Nostos Worm',           Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.300, Ice=1.300, Wind=1.500, Earth=0.700, Lightning=1.300, Water=1.300, Light=1.500, Dark=1.000} },
 
     -- Aquan; B -25% slash, C: -50% slash
-        --is fish a pugil? idk
         ['Nostos Crab']          = { Name='Nostos Crab',           Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.300, Ice=1.500, Wind=1.300, Earth=1.300, Lightning=1.500, Water=0.700, Light=1.300, Dark=1.300} },
         ['Nostos Fish']          = { Name='Nostos Fish',           Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.300, Ice=1.500, Wind=1.300, Earth=1.300, Lightning=1.500, Water=0.300, Light=1.300, Dark=1.300} },
         ['Nostos Jagil']         = { Name='Nostos Jagil',          Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.300, Ice=1.500, Wind=1.300, Earth=1.300, Lightning=1.500, Water=0.300, Light=1.300, Dark=1.300} },
@@ -57,7 +71,6 @@
         ['Nostos Mimic']         = { Name='Nostos Mimic',          Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=124, MaxLevel=140, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=true,  JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=0.500, Piercing=0.500, H2H=0.500, Impact=0.500, Fire=1.000, Ice=1.000, Wind=1.000, Earth=1.000, Lightning=1.000, Water=1.000, Light=1.000, Dark=1.000} },
 
     -- Beast; B -25% pierce, C: -50% pierce
-        --assuming leopard is a black tiger
         ['Nostos Buffalo']       = { Name='Nostos Buffalo',        Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=false, Blood=false, Magic=false, JA=false, Scent=true,  Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.150, Ice=0.700, Wind=1.150, Earth=1.150, Lightning=1.150, Water=1.300, Light=1.150, Dark=1.150} },
         ['Nostos Coeurl']        = { Name='Nostos Coeurl',         Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=false, Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.300, Ice=1.300, Wind=1.300, Earth=1.500, Lightning=1.000, Water=1.300, Light=1.300, Dark=1.300} },
         ['Nostos Dhalmel']       = { Name='Nostos Dhalmel',        Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=false, Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.300, Ice=1.000, Wind=1.500, Earth=1.000, Lightning=1.500, Water=1.300, Light=1.300, Dark=1.300} },
@@ -72,7 +85,6 @@
         ['Nostos Tiger']         = { Name='Nostos Tiger',          Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=false, Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.500, Ice=1.000, Wind=1.000, Earth=1.000, Lightning=1.500, Water=1.300, Light=1.000, Dark=1.000} },
 
     -- Bird; B -25% blunt, C: -50% blunt
-        --wtf is a bigbird? assuming greater bird
         ['Nostos Apkallu']       = { Name='Nostos Apkallu',        Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=0.850, Ice=0.850, Wind=1.150, Earth=1.150, Lightning=1.300, Water=0.400, Light=1.150, Dark=1.150} },
         ['Nostos Bat']           = { Name='Nostos Bat',            Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.250, H2H=1.000, Impact=1.000, Fire=1.300, Ice=1.150, Wind=1.500, Earth=1.300, Lightning=1.300, Water=1.300, Light=1.500, Dark=0.300} },
         ['Nostos Bats']          = { Name='Nostos Bats',           Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.250, H2H=1.000, Impact=1.000, Fire=1.300, Ice=1.150, Wind=1.500, Earth=1.300, Lightning=1.300, Water=1.300, Light=1.500, Dark=0.300} },
@@ -84,16 +96,12 @@
         ['Nostos Ziz']           = { Name='Nostos Ziz',            Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=false, Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.150, Ice=1.150, Wind=1.300, Earth=0.700, Lightning=0.700, Water=1.150, Light=1.150, Dark=1.150} },
 
     -- Demon; B -25% pierce, C: -50% pierce
-        --idk why sheolhelper wrote that imps have pierce weak. wiki doesnt include it tho
-        --same for taurus blunt res, also assuming taurus is gray
         ['Nostos Ahriman']       = { Name='Nostos Ahriman',        Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.000, Ice=1.000, Wind=1.000, Earth=1.000, Lightning=1.000, Water=1.000, Light=1.300, Dark=0.300} },
         ['Nostos Imp']           = { Name='Nostos Imp',            Notorious=false, Aggro=true, Link=false, TrueSight=true,  Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.150, Ice=1.150, Wind=0.700, Earth=1.150, Lightning=1.150, Water=1.150, Light=1.300, Dark=0.300} },
         ['Nostos Soulflayer']    = { Name='Nostos Soulflayer',     Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=true,  JA=true,  Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.000, Ice=0.700, Wind=1.000, Earth=1.000, Lightning=1.000, Water=0.150, Light=1.150, Dark=0.050} },
         ['Nostos Taurus']        = { Name='Nostos Taurus',         Notorious=false, Aggro=true, Link=false, TrueSight=true,  Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=false, Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.150, Ice=1.150, Wind=1.150, Earth=1.150, Lightning=1.150, Water=1.150, Light=1.300, Dark=0.700} },
         
     -- Dragon: B -25% blunt, C: -50% blunt
-        --puk should be absorb wind, does 0 work as a value?
-        --assuing drake is a brown wyvern, same for wyvern
         ['Nostos Dahak']         = { Name='Nostos Dahak',          Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=0.500, Ice=0.700, Wind=0.700, Earth=0.700, Lightning=0.700, Water=0.850, Light=0.700, Dark=0.700} },
         ['Nostos Drake']         = { Name='Nostos Drake',          Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=false, Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=0.500, Ice=0.900, Wind=1.000, Earth=1.000, Lightning=1.300, Water=1.300, Light=1.300, Dark=1.500} },
         ['Nostos Puk']           = { Name='Nostos Puk',            Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.125, H2H=1.000, Impact=1.000, Fire=1.150, Ice=1.300, Wind=0.000, Earth=1.150, Lightning=1.000, Water=1.150, Light=1.150, Dark=1.150} },
@@ -118,7 +126,6 @@
         ['Nostos Treant']        = { Name='Nostos Treant',         Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.500, Ice=1.300, Wind=1.300, Earth=1.000, Lightning=1.300, Water=1.000, Light=1.000, Dark=1.500} },
     
     -- Undead: B -25% slash, C: -50% slash
-        --assuming ghoul is just skeleton
         ['Nostos Bhoot']         = { Name='Nostos Bhoot',          Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=true,  Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=0.750, Piercing=0.750, H2H=0.500, Impact=0.500, Fire=1.300, Ice=0.400, Wind=1.150, Earth=1.000, Lightning=1.150, Water=1.150, Light=1.300, Dark=0.400} },
         ['Nostos Corse']         = { Name='Nostos Corse',          Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=true,  Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=0.875, Piercing=0.500, H2H=1.125, Impact=1.125, Fire=1.300, Ice=0.700, Wind=1.150, Earth=0.700, Lightning=1.150, Water=1.150, Light=1.500, Dark=0.600} },
         ['Nostos Doom Toad']     = { Name='Nostos Doom Toad',      Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=true,  Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.300, Ice=0.600, Wind=1.000, Earth=1.000, Lightning=1.000, Water=0.700, Light=1.300, Dark=0.200} },
@@ -129,8 +136,6 @@
         ['Nostos Qutrub']        = { Name='Nostos Qutrub',         Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=true,  Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=2.000, Piercing=2.000, H2H=2.000, Impact=2.000, Fire=1.300, Ice=0.500, Wind=1.150, Earth=0.850, Lightning=1.150, Water=1.150, Light=1.300, Dark=0.500} },
         ['Nostos Skeleton']      = { Name='Nostos Skeleton',       Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=true,  Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=0.875, Piercing=0.500, H2H=1.125, Impact=1.250, Fire=1.500, Ice=1.000, Wind=1.300, Earth=1.300, Lightning=1.300, Water=1.300, Light=1.500, Dark=0.500} },
     -- Vermin: B -25% magic, C: -50% magic
-        --wtf is a gaganbo, surely its pierce weak
-        --not sure on wamouracampa 87.5% melee but w/e blame wiki...
         ['Nostos Beetle']        = { Name='Nostos Beetle',         Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=false, Blood=false, Magic=false, JA=false, Scent=true,  Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.000, Ice=1.500, Wind=1.000, Earth=1.000, Lightning=1.000, Water=1.000, Light=1.500, Dark=1.000} },
         ['Nostos Chigoe']        = { Name='Nostos Chigoe',         Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.150, Ice=0.850, Wind=0.850, Earth=0.700, Lightning=0.850, Water=1.150, Light=0.850, Dark=0.850} },
         ['Nostos Crawler']       = { Name='Nostos Crawler',        Notorious=false, Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=119, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true,  Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.300, Ice=1.500, Wind=1.300, Earth=1.000, Lightning=1.500, Water=1.300, Light=1.000, Dark=1.500} },
@@ -244,8 +249,6 @@
         ['Agon Yojimbo']       = { Name='Agon Yojimbo',        Notorious=false, Aggro=true, Link=true,  TrueSight=true, Job=0, MinLevel=129, MaxLevel=135, Immunities=0, Respawn=0, Sight=true, Sound=true, Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.150, Ice=1.300, Wind=1.150, Earth=1.150, Lightning=1.300, Water=0.600, Light=1.300, Dark=0.700} },
 
 -- NMs:
-    --yeah i should plugin magic, no im lazy for A and B
-    --no i will not be looking at aggro rules at nm either
     --Sheol A: level 122~134
         ['Aegypius']             = { Name='Aegypius',          Notorious=true,  Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=122, MaxLevel=134, Immunities=0, Respawn=0, Sight=true, Sound=true, Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.250, H2H=1.000, Impact=1.000, Fire=1.000, Ice=1.000, Wind=1.000, Earth=1.000, Lightning=1.000, Water=1.000, Light=1.000, Dark=1.000} },
         ['Ailuros']              = { Name='Ailuros',           Notorious=true,  Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=122, MaxLevel=134, Immunities=0, Respawn=0, Sight=true, Sound=true, Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.000, Ice=1.000, Wind=1.000, Earth=1.000, Lightning=1.000, Water=1.000, Light=1.000, Dark=1.000} },
@@ -267,7 +270,6 @@
     --Sheol B: level 127~137
         --need to include sheol resists of 37.5% for NM, 25% for adds (unsure if higher for beastmen, assuming so).
             --i assume beastman unm will only have this 37.5% applied
-        --gee they have adds too jfc
 
         --slash resist group
         ['Count Malefis']          = { Name='Count Malefis',          Notorious=true,  Aggro=true, Link=false, TrueSight=false, Job=0, MinLevel=127, MaxLevel=137, Immunities=0, Respawn=0, Sight=true, Sound=true, Blood=false, Magic=false, JA=false, Scent=false, Drops={}, Spells={}, Modifiers={Slashing=1.000, Piercing=1.000, H2H=1.000, Impact=1.000, Fire=1.000, Ice=1.000, Wind=1.000, Earth=1.000, Lightning=1.000, Water=1.000, Light=1.000, Dark=1.000} },
