@@ -36,6 +36,7 @@
                     --assuming a leopard is just a black tiger. sheol C
                     --assumed taurus is gray, shoel B
                     --assumed drake and wyvern is brown. drake A B, wyvern C
+                --odyc list has 50 mobs, but one run only returned 22 imgs. are they rng which spawns?
 
 return {
     Names = {
